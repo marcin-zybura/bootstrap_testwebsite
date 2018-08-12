@@ -5,12 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Complete Bootstrap 4 Website Layout</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style/css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	<link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/css/style.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
@@ -27,16 +26,16 @@
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
+            <a class="nav-link" href="#team">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Connect</a>
+            <a class="nav-link" href="#connect">Connect</a>
           </li>
         </ul>
       </div>
@@ -83,7 +82,7 @@
     </div>
   </div>
 
-  <div class="container-fluid padding">
+  <div id="about" class="container-fluid padding">
     <div class="row welcome text-center">
       <div class="col-12">
         <h1 class="display-4">Lorem Ipsum.</h1>
@@ -118,7 +117,7 @@
     <hr class="my-4">
   </div>
 
-  <div class="container-fluid padding">
+  <div id="services" class="container-fluid padding">
     <div class="row padding">
       <div class="col-lg-6">
         <h2>Lorem ipsum...</h2>
@@ -164,7 +163,7 @@
     </div>
   </div>
 
-  <div class="container-fluid padding">
+  <div id="team" class="container-fluid padding">
     <div class="row welcome text-center">
       <div class="col-12">
         <h1 class="display-4">Meet the Team</h1>
@@ -219,9 +218,10 @@
         <img class="img-fluid" src="img/bootstrap2.png" alt="">
       </div>
     </div>
+    <hr class="my-4">
   </div>
 
-  <div class="container-fluid padding">
+  <div id="connect" class="container-fluid padding">
     <div class="row text-center padding">
       <div class="col-12">
         <h2>Connect</h2>
@@ -245,5 +245,41 @@
       </div>
     </div>
   </div>
+
+  <footer>
+    <div class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img src="img/w3newbie.png" alt="">
+          <hr class="light">
+          <p>666-666-666</p>
+          <p>email@email.com</p>
+          <p>100 Street Name</p>
+          <p>City, State, 000000</p>
+        </div>
+        <div class="col-md-4">
+          <hr class="light">
+          <h5>Our hours</h5>
+          <hr class="light">
+          <p>Monday: 9am - 5pm</p>
+          <p>Saturday: 10am - 4pm</p>
+          <p>Sunday: closed</p>
+        </div>
+        <div class="col-md-4">
+          <hr class="light">
+          <h5>Service area</h5>
+          <hr class="light">
+          <p>City, State, 000000</p>
+          <p>City, State, 000000</p>
+          <p>City, State, 000000</p>
+          <p>City, State, 000000</p>
+        </div>
+        <div class="col-12">
+          <hr class="light-100">
+          <h5>&copy; testsite.com</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
